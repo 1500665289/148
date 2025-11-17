@@ -1,0 +1,812 @@
+﻿<ThingDefs><List>
+
+	<ThingDef Type="Building" Name="sanrenchuang1" Parent="FurnitureBase">
+	<TexPath>Spr/Building/sanrenchuang1.png</TexPath>
+	<TexScale>0.97</TexScale>
+	<ThingName>奢华三人大床</ThingName>	
+	<Desc>一张适合三个人享受鱼水之欢的奢华大床。</Desc>
+	<Tags>
+		<Tag Name="Sleep" Level="15"/>
+		<Tag Name="Practice" Level="15"/>
+	</Tags>
+	<ColliderKind>ThrowOver</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,0,0,0],
+		[0,5,7,5,0],
+		[0,1,1,1,0],
+		[0,1,1,1,0],
+		[0,1,1,1,0],
+		</Data>
+		<WorkOffset>
+			<li Index="0"  X="0.3" Y="-0.38" Z="-0.05" Ang="180"/>
+			<li Index="1"  X="0.11" Y="-0.38" Z="-0.05" Ang="180"/>
+			<li Index="2"  X="-0.08" Y="-0.38" Z="-0.05" Ang="180"/>
+		</WorkOffset>
+	</Collider>
+	
+	<Building>
+		<RoomKind>BedRoom</RoomKind>
+		<IsBed>1</IsBed>
+		<OwnerCount>3</OwnerCount>
+		<HelperClass>BuildingHelperBed</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<RestEffectiveness>1.1</RestEffectiveness>
+		
+		<PracticeEffectiveness>0.2</PracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>15</CostStuffCount>
+		</BeMade>
+	</Building>
+	<Ling>
+		<AddionLing>75</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="chajizuhe1" Parent="FurnitureBase">
+	<TexPath>Spr/Building/chajizuhe1a.png</TexPath>
+	<TexScale>1.125</TexScale>
+	<ThingName>茶几组合—踏春</ThingName>	
+	<Desc>灵动高雅的茶艺家具，春意萌动，生机勃勃。</Desc>
+	<BlockLight>0</BlockLight>
+	<SelectAble>1</SelectAble>
+	<Tags>
+		<Tag Name="Sitable" Level="4"/>
+		<Tag Name="Practice" Level="15"/>
+	</Tags>
+	<ColliderKind>ThrowOver</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,1,1,1,1,0],
+		[1,0,1,1,5,1,5,1,0],
+		[1,5,0,0,0,0,0,0,0],
+		[1,1,0,1,3,1,1,1,0],
+		[1,5,0,1,1,1,1,1,0],
+		[1,1,0,0,0,0,0,0,0],
+		[0,0,1,1,1,1,1,1,1],
+		[0,0,0,0,0,0,0,0,0],
+		</Data>
+		<WorkOffset>
+			<li Index="0"  X="0.1" Y="0.3" Z="-3" Ang="181"/>
+			<li Index="1"  X="0.34" Y="0.3" Z="-3" Ang="181"/>
+			<li Index="2"  X="0" Y="0.15" Z="-3" Ang="91"/>
+			<li Index="3"  X="0" Y="-0.5" Z="-3" Ang="91"/>
+		</WorkOffset>
+	</Collider>
+	
+	<Building>
+		<OwnerCount>4</OwnerCount>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/chajizuhe1b.png</WorkTexPath>
+		<RestEffectiveness>2</RestEffectiveness>
+		
+		<PracticeEffectiveness>2</PracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>150</CostStuffCount>
+		</BeMade>
+	</Building>
+	<Ling>
+		<AddionLing>75</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="zhuguangyuchi1" Parent="FurnitureBase">
+	<TexPath>Spr/Building/zhuguangyuchi1a.png</TexPath>
+	<TexScale>0.9</TexScale>
+	<ThingName>烛光浴池—问情</ThingName>	
+	<Desc>千呼万唤始出来，犹抱琵琶半遮面。转轴拨弦三两声，未成曲调先有情。</Desc>
+	<BlockLight>0</BlockLight>
+	<SelectAble>1</SelectAble>
+	<Tags>
+		<Tag Name="Sitable" Level="4"/>
+		<Tag Name="Practice" Level="15"/>
+	</Tags>
+	<ColliderKind>ThrowOver</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0],
+		[0,0,0,1,1,1,0,0,0],
+		[0,0,1,5,1,5,1,0,0],
+		[0,0,1,1,3,1,1,0,0],
+		[0,0,1,5,1,5,1,0,0],
+		[0,0,0,1,0,1,0,0,0],
+		[0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0],
+		</Data>
+		<Offset>
+			<y>0.15</y>
+		</Offset>
+		<WorkOffset>
+			<li Index="0"  X="0.62" Y="0" Z="-5" Ang="91"/>
+			<li Index="1"  X="-0.62" Y="0" Z="-5" Ang="-91"/>
+			<li Index="2"  X="0.35" Y="-0.18" Z="-3" Ang="181"/>
+			<li Index="3"  X="-0.30" Y="-0.18" Z="-3" Ang="181"/>
+		</WorkOffset>
+	</Collider>
+	
+	<Building>
+		<OwnerCount>4</OwnerCount>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/zhuguangyuchi1b.png</WorkTexPath>
+		<RestEffectiveness>2</RestEffectiveness>
+		
+		<PracticeEffectiveness>2</PracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>150</CostStuffCount>
+		</BeMade>
+	</Building>
+	<Ling>
+		<AddionLing>75</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	</ThingDef>
+
+		
+	<ThingDef Type="Building" Name="zhangmendamen1" Parent="FurnitureBase">
+	<TexPath>Spr/Building/zhangmendamen1a.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<ThingName>掌门府邸大门</ThingName>	
+	<Desc>气派神秘的大门，能以法力书写经文，供新入门的弟子感受道蕴。</Desc>	
+	<Tags>
+		<Tag Name="WriteTxt" Level="3"/>
+		<Tag Name="Apprentice" Level="5"/>
+		<Tag Name="TheGate" Level="1"/>
+	</Tags>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,0,0,0,0,0],
+		[0,0,0,2,0,0,0],
+		[0,0,0,1,0,0,0],
+		[0,0,4,4,4,0,0],
+		[0,4,4,4,4,4,0],
+		[4,4,4,4,4,4,4],
+		</Data>
+		<Offset>
+			<z>-10</z>
+			<y>0.001</y>
+		</Offset>
+	</Collider>
+	
+	<Building>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/zhangmendamen1b.png</WorkTexPath>
+		<Perfab>Building/Prefabs/Shibei</Perfab>
+		<HelperClass>BuildingHelperBei</HelperClass>
+		<HelperClass>BuildingHelperSacrificialTable</HelperClass>
+		<BeMade>
+			<WorkToMake>125</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>120</CostStuffCount>
+		</BeMade>		
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="shujiaqiang1" Parent="FurnitureBase">
+	<TexPath>Spr/Building/shujiaqiang1.png</TexPath>
+	<TexScale>0.25</TexScale>
+	<BlockLight>1</BlockLight>
+	<ThingName>书架墙</ThingName>	
+	<Desc>与墙体连在一起的书架，古色古香，十分雅致。</Desc>
+	<ColliderKind>ThrowOver</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0],
+		[3,1],
+		</Data>
+	</Collider>
+	
+	<Building>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="huxinting1" Parent="FurnitureBase">
+	<ThingName>湖心亭—千藤</ThingName>	
+	<Desc>羞红颦浅恨，晚风未落，片绣点重茵。旧堤分燕尾，桂棹轻鸥，宝勒倚残云。千丝怨碧，渐路入、仙坞迷津。肠漫回，隔花时见，背面楚腰身。——宋·吴文英·《渡江云三犯·西湖清明》 </Desc>	
+	<TexPath>Spr/Building/huxinting1a.png</TexPath>
+	<TexScale>1</TexScale>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+		</Data>
+		<Offset>
+			<z>10</z>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>65</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>0</FailRadius>
+		<Radius>1</Radius>
+		<Color>ff77b7FF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>Spr/Building/huxinting1b.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>200</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="huxintingzuowei1" Parent="FurnitureBase">
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>湖心亭座位</ThingName>
+	<Desc>道可道，非恒道。</Desc>	
+	<BlockLight>0</BlockLight>
+	<SelectAble>1</SelectAble>
+	<Tags>
+		<Tag Name="Sitable" Level="4"/>
+		<Tag Name="Practice" Level="15"/>
+	</Tags>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[4,0,4],
+		[4,3,4],
+		</Data>
+		<Offset>
+			<z>10</z>
+			<y>-4.2</y>
+		</Offset>
+		<WorkOffset>
+			<li Index="0"  X="0" Y="0.5" Z="-3" Ang="136"/>
+			<li Index="1"  X="0" Y="0.5" Z="-3" Ang="226"/>
+			<li Index="2"  X="-0.1" Y="0.1" Z="-3" Ang="46"/>
+			<li Index="3"  X="0.1" Y="0.1" Z="-3" Ang="316"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<OwnerCount>4</OwnerCount>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/huxintingzuowei1b.png</WorkTexPath>
+		<RestEffectiveness>2</RestEffectiveness>
+		
+		<PracticeEffectiveness>2</PracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	<Ling>
+		<AddionLing>75</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="CalligraphyTable1" Parent="FurnitureBase">
+	<ThingName>书桌组合—黄庭</ThingName>	
+	<Desc>老君闲居作七言，解说身形及诸神；上有黄庭下关元，后有幽阙前命门。</Desc>
+	<TexPath>Spr/Building/zhuoyizuhe1a.png</TexPath>
+	<TexScale>0.6</TexScale>
+	<BlockLight>0</BlockLight>	
+	<SelectAble>1</SelectAble>	
+	<Tags>
+		<Tag Name="ForFun" Level="15"/>
+		<Tag Name="Sitable" Level="4"/>
+		<Tag Name="Practice" Level="15"/>
+		<Tag Name="WriteTxt" Level="3"/>
+	</Tags>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0],
+		[0,0,0,0,2,0,0,0],
+		[0,1,1,1,1,1,0,0],
+		[0,0,0,0,4,0,0,0],
+		[0,0,0,0,0,0,0,0],
+		[0,0,0,0,0,0,0,0],
+		</Data>
+		<Offset>
+			<x>-0.5</x>
+			<y>-0.5</y>
+			<z>10</z>
+		</Offset>
+		<WorkOffset>
+			<li Index="0"  X="-0.5" Y="0" Z="-5" Ang="1"/>
+		</WorkOffset>
+	</Collider>
+
+	<Building>
+		<OwnerCount>1</OwnerCount>
+		<WorkAnimation>shuhua1</WorkAnimation>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/zhuoyizuhe1b.png</WorkTexPath>
+		<Perfab>Building/Prefabs/Shibei</Perfab>
+		<HelperClass>BuildingHelperBei</HelperClass>
+		<RestEffectiveness>2</RestEffectiveness>
+		<PracticeEffectiveness>2</PracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>120</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>30</CostStuffCount>
+		</BeMade>
+	</Building>
+	<Ling>
+		<AddionLing>75</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="CalligraphyTable2" Parent="FurnitureBase">
+	<ThingName>画符桌</ThingName>	
+	<Desc>一张放置笔墨纸砚的桌几案，可以在上面制作符咒。除此之外，也可以闲暇之时供人娱乐。</Desc>
+	<TexPath>res/Sprs/building/building_paintPlace1a</TexPath>
+	<TexScale>0.75</TexScale>
+	<BlockLight>1</BlockLight>	
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<Tags>
+		<Tag Name="ForFun" Level="1"/>
+	</Tags>
+	<ShadowSize>
+		<x>1</x>
+		<y>0.7</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[1,3],
+		[0,4],
+		</Data>
+		<Offset>
+			<y>0.5</y>
+			<x>-0.35</x>
+		</Offset>
+		<WorkOffset>
+			<li Index="0"  X="-0.56" Y="0.338" Ang="14"/>
+		</WorkOffset>
+	</Collider>
+
+	<Building>
+		<WorkAnimation>shuhua1</WorkAnimation>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>res/Sprs/building/building_paintPlace1b</WorkTexPath>
+		
+		<BeMade>
+			<WorkToMake>120</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>8</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.35</x>
+			<y>3.3</y>
+			<z>1</z>
+		</SnowRenderData>
+		<ProduceKind>Handwork</ProduceKind>
+		<ProducePriority>2</ProducePriority>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_SpellPaper</ThingDef>
+				<Display>符纸</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_SpellPaperLv2</ThingDef>
+				<Display>灵血符</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_SpellPaperLv3</ThingDef>
+				<Display>神珀符</Display>
+				<Count>1</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="pingfeng11" Parent="FurnitureBase">
+	<ThingName>迎宾屏风—咏梅</ThingName>	
+	<Desc>无意苦争春，一任群芳妒。零落成泥碾作尘，只有香如故。</Desc>
+	<TexPath>Spr/Building/pingfeng11a.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,0,0],
+		[0,3,0],
+		[0,0,0],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>65</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>fff8f0FF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/pingfeng11b.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="hongguangyuan2" Parent="FurnitureBase">
+	<ThingName>红色光源(大）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>5</FailRadius>
+		<Radius>8</Radius>
+		<Color>ff92a4FF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="chengguangyuan2" Parent="FurnitureBase">
+	<ThingName>橙色光源(大）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>5</FailRadius>
+		<Radius>8</Radius>
+		<Color>ffb381FF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="huangguangyuan2" Parent="FurnitureBase">
+	<ThingName>黄色光源(大）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>5</FailRadius>
+		<Radius>8</Radius>
+		<Color>ffe88cFF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="qingguangyuan2" Parent="FurnitureBase">
+	<ThingName>青色光源(大）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>5</FailRadius>
+		<Radius>8</Radius>
+		<Color>8fffe9FF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="languangyuan2" Parent="FurnitureBase">
+	<ThingName>蓝色光源(大）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>5</FailRadius>
+		<Radius>8</Radius>
+		<Color>7fcdffFF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="ziguangyuan2" Parent="FurnitureBase">
+	<ThingName>紫色光源(大）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>5</FailRadius>
+		<Radius>8</Radius>
+		<Color>a798ffFF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="baiguangyuan2" Parent="FurnitureBase">
+	<ThingName>白色光源(大）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>5</FailRadius>
+		<Radius>8</Radius>
+		<Color>fff7f2FF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+</List></ThingDefs>

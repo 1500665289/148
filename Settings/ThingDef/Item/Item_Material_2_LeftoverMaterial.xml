@@ -1,0 +1,5679 @@
+﻿<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="qiangweihong2wu" Parent="LeftoverMaterialBase">
+	<ThingName>蔷薇红角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiangweihong.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蔷薇红角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d98da5F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>cc6686F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiangweihong2jin" Parent="LeftoverMaterialBase">
+	<ThingName>蔷薇红角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiangweihong.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蔷薇红角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d98da5F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>cc6686F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiangweihong2mu" Parent="LeftoverMaterialBase">
+	<ThingName>蔷薇红角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiangweihong.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蔷薇红角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d98da5F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>cc6686F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiangweihong2shui" Parent="LeftoverMaterialBase">
+	<ThingName>蔷薇红角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiangweihong.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蔷薇红角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d98da5F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>cc6686F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiangweihong2huo" Parent="LeftoverMaterialBase">
+	<ThingName>蔷薇红角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiangweihong.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蔷薇红角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d98da5F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>cc6686F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiangweihong2tu" Parent="LeftoverMaterialBase">
+	<ThingName>蔷薇红角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiangweihong.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蔷薇红角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d98da5F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>cc6686F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qianbosiju2wu" Parent="LeftoverMaterialBase">
+	<ThingName>浅波斯菊角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qianbosiju.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅波斯菊角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6bcb0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c99c87F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qianbosiju2jin" Parent="LeftoverMaterialBase">
+	<ThingName>浅波斯菊角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qianbosiju.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅波斯菊角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6bcb0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c99c87F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qianbosiju2mu" Parent="LeftoverMaterialBase">
+	<ThingName>浅波斯菊角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qianbosiju.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅波斯菊角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6bcb0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c99c87F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qianbosiju2shui" Parent="LeftoverMaterialBase">
+	<ThingName>浅波斯菊角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qianbosiju.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅波斯菊角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6bcb0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c99c87F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qianbosiju2huo" Parent="LeftoverMaterialBase">
+	<ThingName>浅波斯菊角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qianbosiju.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅波斯菊角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6bcb0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c99c87F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qianbosiju2tu" Parent="LeftoverMaterialBase">
+	<ThingName>浅波斯菊角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qianbosiju.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅波斯菊角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6bcb0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c99c87F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui2wu" Parent="LeftoverMaterialBase">
+	<ThingName>冷月灰角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lengyuehui.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>冷月灰角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ad9fb3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9e8ba6F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui2jin" Parent="LeftoverMaterialBase">
+	<ThingName>冷月灰角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lengyuehui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>冷月灰角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ad9fb3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9e8ba6F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui2mu" Parent="LeftoverMaterialBase">
+	<ThingName>冷月灰角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lengyuehui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>冷月灰角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ad9fb3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9e8ba6F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui2shui" Parent="LeftoverMaterialBase">
+	<ThingName>冷月灰角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lengyuehui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>冷月灰角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ad9fb3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9e8ba6F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui2huo" Parent="LeftoverMaterialBase">
+	<ThingName>冷月灰角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lengyuehui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>冷月灰角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ad9fb3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9e8ba6F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui2tu" Parent="LeftoverMaterialBase">
+	<ThingName>冷月灰角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lengyuehui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>冷月灰角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ad9fb3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9e8ba6F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang2wu" Parent="LeftoverMaterialBase">
+	<ThingName>拿坡里黄角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\napolihuang.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>拿坡里黄角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6cea13F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c9bf83F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang2jin" Parent="LeftoverMaterialBase">
+	<ThingName>拿坡里黄角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\napolihuang.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>拿坡里黄角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6cea13F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c9bf83F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang2mu" Parent="LeftoverMaterialBase">
+	<ThingName>拿坡里黄角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\napolihuang.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>拿坡里黄角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6cea13F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c9bf83F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang2shui" Parent="LeftoverMaterialBase">
+	<ThingName>拿坡里黄角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\napolihuang.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>拿坡里黄角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6cea13F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c9bf83F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang2huo" Parent="LeftoverMaterialBase">
+	<ThingName>拿坡里黄角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\napolihuang.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>拿坡里黄角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6cea13F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c9bf83F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang2tu" Parent="LeftoverMaterialBase">
+	<ThingName>拿坡里黄角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\napolihuang.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>拿坡里黄角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>d6cea13F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c9bf83F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui2wu" Parent="LeftoverMaterialBase">
+	<ThingName>浅豆灰角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiandouhui.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅豆灰角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>c9d1b4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>acb88cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui2jin" Parent="LeftoverMaterialBase">
+	<ThingName>浅豆灰角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiandouhui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅豆灰角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>c9d1b4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>acb88cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui2mu" Parent="LeftoverMaterialBase">
+	<ThingName>浅豆灰角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiandouhui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅豆灰角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>c9d1b4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>acb88cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui2shui" Parent="LeftoverMaterialBase">
+	<ThingName>浅豆灰角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiandouhui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅豆灰角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>c9d1b4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>acb88cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui2huo" Parent="LeftoverMaterialBase">
+	<ThingName>浅豆灰角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiandouhui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅豆灰角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>c9d1b4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>acb88cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui2tu" Parent="LeftoverMaterialBase">
+	<ThingName>浅豆灰角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qiandouhui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>浅豆灰角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>c9d1b4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>acb88cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu2wu" Parent="LeftoverMaterialBase">
+	<ThingName>马尔代夫角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\maerdaifu.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>马尔代夫角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bcd6b0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9dc987F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu2jin" Parent="LeftoverMaterialBase">
+	<ThingName>马尔代夫角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\maerdaifu.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>马尔代夫角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bcd6b0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9dc987F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu2mu" Parent="LeftoverMaterialBase">
+	<ThingName>马尔代夫角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\maerdaifu.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>马尔代夫角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bcd6b0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9dc987F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu2shui" Parent="LeftoverMaterialBase">
+	<ThingName>马尔代夫角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\maerdaifu.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>马尔代夫角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bcd6b0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9dc987F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu2huo" Parent="LeftoverMaterialBase">
+	<ThingName>马尔代夫角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\maerdaifu.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>马尔代夫角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bcd6b0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9dc987F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu2tu" Parent="LeftoverMaterialBase">
+	<ThingName>马尔代夫角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\maerdaifu.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>马尔代夫角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bcd6b0F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9dc987F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing2wu" Parent="LeftoverMaterialBase">
+	<ThingName>春日青角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\chunriqing.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>春日青角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a2e0d9F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>71c7bdF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing2jin" Parent="LeftoverMaterialBase">
+	<ThingName>春日青角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\chunriqing.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>春日青角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a2e0d9F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>71c7bdF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing2mu" Parent="LeftoverMaterialBase">
+	<ThingName>春日青角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\chunriqing.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>春日青角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a2e0d9F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>71c7bdF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing2shui" Parent="LeftoverMaterialBase">
+	<ThingName>春日青角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\chunriqing.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>春日青角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a2e0d9F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>71c7bdF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing2huo" Parent="LeftoverMaterialBase">
+	<ThingName>春日青角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\chunriqing.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>春日青角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a2e0d9F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>71c7bdF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing2tu" Parent="LeftoverMaterialBase">
+	<ThingName>春日青角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\chunriqing.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>春日青角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a2e0d9F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>71c7bdF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan2wu" Parent="LeftoverMaterialBase">
+	<ThingName>温莎蓝角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\wenshalan.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>温莎蓝角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a8bee3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>7795c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan2jin" Parent="LeftoverMaterialBase">
+	<ThingName>温莎蓝角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\wenshalan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>温莎蓝角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a8bee3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>7795c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan2mu" Parent="LeftoverMaterialBase">
+	<ThingName>温莎蓝角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\wenshalan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>温莎蓝角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a8bee3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>7795c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan2shui" Parent="LeftoverMaterialBase">
+	<ThingName>温莎蓝角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\wenshalan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>温莎蓝角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a8bee3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>7795c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan2huo" Parent="LeftoverMaterialBase">
+	<ThingName>温莎蓝角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\wenshalan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>温莎蓝角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a8bee3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>7795c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan2tu" Parent="LeftoverMaterialBase">
+	<ThingName>温莎蓝角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\wenshalan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>温莎蓝角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>a8bee3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>7795c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi2wu" Parent="LeftoverMaterialBase">
+	<ThingName>普罗旺斯角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\puluowangsi.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普罗旺斯角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>cac8e3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9893c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi2jin" Parent="LeftoverMaterialBase">
+	<ThingName>普罗旺斯角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\puluowangsi.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普罗旺斯角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>cac8e3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9893c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi2mu" Parent="LeftoverMaterialBase">
+	<ThingName>普罗旺斯角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\puluowangsi.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普罗旺斯角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>cac8e3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9893c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi2shui" Parent="LeftoverMaterialBase">
+	<ThingName>普罗旺斯角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\puluowangsi.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普罗旺斯角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>cac8e3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9893c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi2huo" Parent="LeftoverMaterialBase">
+	<ThingName>普罗旺斯角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\puluowangsi.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普罗旺斯角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>cac8e3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9893c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi2tu" Parent="LeftoverMaterialBase">
+	<ThingName>普罗旺斯角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\puluowangsi.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普罗旺斯角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>cac8e3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>9893c9F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing2wu" Parent="LeftoverMaterialBase">
+	<ThingName>雪青角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xueqing.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>雪青角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ccb6d4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>b197baF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing2jin" Parent="LeftoverMaterialBase">
+	<ThingName>雪青角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xueqing.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>雪青角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ccb6d4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>b197baF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing2mu" Parent="LeftoverMaterialBase">
+	<ThingName>雪青角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xueqing.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>雪青角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ccb6d4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>b197baF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing2shui" Parent="LeftoverMaterialBase">
+	<ThingName>雪青角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xueqing.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>雪青角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ccb6d4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>b197baF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing2huo" Parent="LeftoverMaterialBase">
+	<ThingName>雪青角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xueqing.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>雪青角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ccb6d4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>b197baF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing2tu" Parent="LeftoverMaterialBase">
+	<ThingName>雪青角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xueqing.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>雪青角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>ccb6d4F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>b197baF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei2wu" Parent="LeftoverMaterialBase">
+	<ThingName>淡妃角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\danfei.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>淡妃角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>e0c7c3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c7978fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei2jin" Parent="LeftoverMaterialBase">
+	<ThingName>淡妃角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\danfei.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>淡妃角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>e0c7c3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c7978fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei2mu" Parent="LeftoverMaterialBase">
+	<ThingName>淡妃角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\danfei.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>淡妃角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>e0c7c3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c7978fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei2shui" Parent="LeftoverMaterialBase">
+	<ThingName>淡妃角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\danfei.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>淡妃角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>e0c7c3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c7978fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei2huo" Parent="LeftoverMaterialBase">
+	<ThingName>淡妃角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\danfei.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>淡妃角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>e0c7c3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c7978fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei2tu" Parent="LeftoverMaterialBase">
+	<ThingName>淡妃角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\danfei.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>淡妃角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>e0c7c3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>c7978fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina2wu" Parent="LeftoverMaterialBase">
+	<ThingName>云尼拿角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yunnina.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>云尼拿角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>6c98a3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3f7b8aF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina2jin" Parent="LeftoverMaterialBase">
+	<ThingName>云尼拿角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yunnina.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>云尼拿角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>6c98a3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3f7b8aF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina2mu" Parent="LeftoverMaterialBase">
+	<ThingName>云尼拿角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yunnina.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>云尼拿角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>6c98a3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3f7b8aF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina2shui" Parent="LeftoverMaterialBase">
+	<ThingName>云尼拿角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yunnina.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>云尼拿角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>6c98a3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3f7b8aF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina2huo" Parent="LeftoverMaterialBase">
+	<ThingName>云尼拿角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yunnina.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>云尼拿角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>6c98a3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3f7b8aF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina2tu" Parent="LeftoverMaterialBase">
+	<ThingName>云尼拿角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yunnina.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>云尼拿角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>6c98a3F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3f7b8aF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan2wu" Parent="LeftoverMaterialBase">
+	<ThingName>景德蓝角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\jingdelan.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>景德蓝角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>4d76a8F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>264469F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan2jin" Parent="LeftoverMaterialBase">
+	<ThingName>景德蓝角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\jingdelan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>景德蓝角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>4d76a8F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>264469F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan2mu" Parent="LeftoverMaterialBase">
+	<ThingName>景德蓝角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\jingdelan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>景德蓝角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>4d76a8F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>264469F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan2shui" Parent="LeftoverMaterialBase">
+	<ThingName>景德蓝角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\jingdelan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>景德蓝角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>4d76a8F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>264469F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan2huo" Parent="LeftoverMaterialBase">
+	<ThingName>景德蓝角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\jingdelan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>景德蓝角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>4d76a8F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>264469F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan2tu" Parent="LeftoverMaterialBase">
+	<ThingName>景德蓝角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\jingdelan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>景德蓝角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>4d76a8F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>264469F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian2wu" Parent="LeftoverMaterialBase">
+	<ThingName>蓝莲角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lanlian.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蓝莲角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>7e6f9eF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>443561F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian2jin" Parent="LeftoverMaterialBase">
+	<ThingName>蓝莲角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lanlian.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蓝莲角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>7e6f9eF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>443561F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian2mu" Parent="LeftoverMaterialBase">
+	<ThingName>蓝莲角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lanlian.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蓝莲角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>7e6f9eF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>443561F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian2shui" Parent="LeftoverMaterialBase">
+	<ThingName>蓝莲角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lanlian.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蓝莲角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>7e6f9eF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>443561F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian2huo" Parent="LeftoverMaterialBase">
+	<ThingName>蓝莲角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lanlian.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蓝莲角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>7e6f9eF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>443561F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian2tu" Parent="LeftoverMaterialBase">
+	<ThingName>蓝莲角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\lanlian.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>蓝莲角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>7e6f9eF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>443561F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang2wu" Parent="LeftoverMaterialBase">
+	<ThingName>匈牙利丁香角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xiongyalidingxiang.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>704360F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d0f2cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang2jin" Parent="LeftoverMaterialBase">
+	<ThingName>匈牙利丁香角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xiongyalidingxiang.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>704360F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d0f2cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang2mu" Parent="LeftoverMaterialBase">
+	<ThingName>匈牙利丁香角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xiongyalidingxiang.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>704360F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d0f2cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang2shui" Parent="LeftoverMaterialBase">
+	<ThingName>匈牙利丁香角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xiongyalidingxiang.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>704360F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d0f2cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang2huo" Parent="LeftoverMaterialBase">
+	<ThingName>匈牙利丁香角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xiongyalidingxiang.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>704360F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d0f2cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang2tu" Parent="LeftoverMaterialBase">
+	<ThingName>匈牙利丁香角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\xiongyalidingxiang.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>704360F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d0f2cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv2wu" Parent="LeftoverMaterialBase">
+	<ThingName>橄榄绿角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\ganlanlv.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>橄榄绿角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>899174F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d452bF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv2jin" Parent="LeftoverMaterialBase">
+	<ThingName>橄榄绿角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\ganlanlv.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>橄榄绿角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>899174F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d452bF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv2mu" Parent="LeftoverMaterialBase">
+	<ThingName>橄榄绿角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\ganlanlv.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>橄榄绿角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>899174F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d452bF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv2shui" Parent="LeftoverMaterialBase">
+	<ThingName>橄榄绿角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\ganlanlv.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>橄榄绿角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>899174F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d452bF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv2huo" Parent="LeftoverMaterialBase">
+	<ThingName>橄榄绿角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\ganlanlv.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>橄榄绿角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>899174F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d452bF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv2tu" Parent="LeftoverMaterialBase">
+	<ThingName>橄榄绿角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\ganlanlv.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>橄榄绿角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>899174F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>3d452bF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi2wu" Parent="LeftoverMaterialBase">
+	<ThingName>起司角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qisi.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>起司角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bfc989F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>98a35fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi2jin" Parent="LeftoverMaterialBase">
+	<ThingName>起司角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qisi.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>起司角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bfc989F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>98a35fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi2mu" Parent="LeftoverMaterialBase">
+	<ThingName>起司角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qisi.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>起司角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bfc989F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>98a35fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi2shui" Parent="LeftoverMaterialBase">
+	<ThingName>起司角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qisi.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>起司角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bfc989F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>98a35fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi2huo" Parent="LeftoverMaterialBase">
+	<ThingName>起司角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qisi.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>起司角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bfc989F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>98a35fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi2tu" Parent="LeftoverMaterialBase">
+	<ThingName>起司角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\qisi.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>起司角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>bfc989F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>98a35fF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui2wu" Parent="LeftoverMaterialBase">
+	<ThingName>赭石灰角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\zheshihui.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>赭石灰角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>b38f86F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>80574dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui2jin" Parent="LeftoverMaterialBase">
+	<ThingName>赭石灰角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\zheshihui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>赭石灰角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>b38f86F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>80574dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui2mu" Parent="LeftoverMaterialBase">
+	<ThingName>赭石灰角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\zheshihui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>赭石灰角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>b38f86F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>80574dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui2shui" Parent="LeftoverMaterialBase">
+	<ThingName>赭石灰角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\zheshihui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>赭石灰角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>b38f86F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>80574dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui2huo" Parent="LeftoverMaterialBase">
+	<ThingName>赭石灰角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\zheshihui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>赭石灰角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>b38f86F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>80574dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui2tu" Parent="LeftoverMaterialBase">
+	<ThingName>赭石灰角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\zheshihui.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>赭石灰角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>b38f86F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>80574dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan2wu" Parent="LeftoverMaterialBase">
+	<ThingName>普蓝角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\pulan.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普蓝角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>495d91F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2a4078F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan2jin" Parent="LeftoverMaterialBase">
+	<ThingName>普蓝角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\pulan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普蓝角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>495d91F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2a4078F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan2mu" Parent="LeftoverMaterialBase">
+	<ThingName>普蓝角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\pulan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普蓝角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>495d91F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2a4078F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan2shui" Parent="LeftoverMaterialBase">
+	<ThingName>普蓝角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\pulan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普蓝角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>495d91F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2a4078F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan2huo" Parent="LeftoverMaterialBase">
+	<ThingName>普蓝角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\pulan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普蓝角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>495d91F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2a4078F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan2tu" Parent="LeftoverMaterialBase">
+	<ThingName>普蓝角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\pulan.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>普蓝角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>495d91F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2a4078F2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv2wu" Parent="LeftoverMaterialBase">
+	<ThingName>墨绿角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\molv.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>墨绿角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>387061F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>164a3cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv2jin" Parent="LeftoverMaterialBase">
+	<ThingName>墨绿角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\molv.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>墨绿角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>387061F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>164a3cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv2mu" Parent="LeftoverMaterialBase">
+	<ThingName>墨绿角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\molv.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>墨绿角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>387061F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>164a3cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv2shui" Parent="LeftoverMaterialBase">
+	<ThingName>墨绿角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\molv.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>墨绿角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>387061F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>164a3cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv2huo" Parent="LeftoverMaterialBase">
+	<ThingName>墨绿角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\molv.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>墨绿角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>387061F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>164a3cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv2tu" Parent="LeftoverMaterialBase">
+	<ThingName>墨绿角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\molv.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>墨绿角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>387061F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>164a3cF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei2wu" Parent="LeftoverMaterialBase">
+	<ThingName>暖辐黑角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\nuanfuhei.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>暖辐黑角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>473737F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2f1b1dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei2jin" Parent="LeftoverMaterialBase">
+	<ThingName>暖辐黑角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\nuanfuhei.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>暖辐黑角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>473737F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2f1b1dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei2mu" Parent="LeftoverMaterialBase">
+	<ThingName>暖辐黑角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\nuanfuhei.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>暖辐黑角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>473737F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2f1b1dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei2shui" Parent="LeftoverMaterialBase">
+	<ThingName>暖辐黑角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\nuanfuhei.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>暖辐黑角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>473737F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2f1b1dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei2huo" Parent="LeftoverMaterialBase">
+	<ThingName>暖辐黑角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\nuanfuhei.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>暖辐黑角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>473737F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2f1b1dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei2tu" Parent="LeftoverMaterialBase">
+	<ThingName>暖辐黑角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\nuanfuhei.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>暖辐黑角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>473737F2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>2f1b1dF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai2wu" Parent="LeftoverMaterialBase">
+	<ThingName>映雪白角料·无</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yingxuebai.png</TexPath>	
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>映雪白角料·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>F7FEFEF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>d0dbdbF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai2jin" Parent="LeftoverMaterialBase">
+	<ThingName>映雪白角料·金</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yingxuebai.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>映雪白角料·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>F7FEFEF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>d0dbdbF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai2mu" Parent="LeftoverMaterialBase">
+	<ThingName>映雪白角料·木</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yingxuebai.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>映雪白角料·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>F7FEFEF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>d0dbdbF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai2shui" Parent="LeftoverMaterialBase">
+	<ThingName>映雪白角料·水</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yingxuebai.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>映雪白角料·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>F7FEFEF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>d0dbdbF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai2huo" Parent="LeftoverMaterialBase">
+	<ThingName>映雪白角料·火</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yingxuebai.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>映雪白角料·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>F7FEFEF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>d0dbdbF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai2tu" Parent="LeftoverMaterialBase">
+	<ThingName>映雪白角料·土</ThingName>
+	<TexPath>Spr\LeftoverMaterial\yingxuebai.png</TexPath>	
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Desc>混杂了紫霄高级建材的余料，可以用来铺地板或砌屋檐。</Desc>
+	<MaxStack>9999</MaxStack>
+	<Beauty>18</Beauty>
+	<Rate>10</Rate>
+	<Flammability>
+		<BurningPoint>99999</BurningPoint>
+	</Flammability>
+	<Item>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<BeMaterial>
+			<NamePrefix>映雪白角料·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			
+			<ColorWhenBeFloor>F7FEFEF2</ColorWhenBeFloor>
+			<ColorWhenBeRoof>d0dbdbF2</ColorWhenBeRoof>
+			
+			<BurningPointWhenBeMain>99999</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+</List></ThingDefs>

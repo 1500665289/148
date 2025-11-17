@@ -1,0 +1,6287 @@
+﻿<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_xiantianyangqing" Parent="RockBlockBase">
+	<ThingName>先天阳清气</ThingName>
+	
+	<TexPath>Spr\Object\object_yangqi.png</TexPath>	
+	<Desc>天地混沌如鸡子,盘古生其中,万八千岁。摇幡破之，混沌炸裂；阳清上升，历无量量劫化而为天。</Desc>
+	<!--<Color>FFFFFFFF</Color>-->
+	<Rate>12</Rate>
+	<Beauty>999</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>先天阳清气</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FFFFFFFF</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>1.2</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>999</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>150</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>150</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>520</Value>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>3</Radius>
+		<Color>8DFEEBFF</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_xiantianyinzhuo" Parent="RockBlockBase">
+	<ThingName>先天阴浊气</ThingName>
+	
+	<TexPath>Spr\Object\object_yinqi.png</TexPath>	
+	<Desc>天地混沌如鸡子,盘古生其中,万八千岁。摇幡破之，混沌炸裂；阴浊下沉，历无量量劫化而为地。</Desc>
+	<!--<Color>000000FF</Color>-->
+	<Rate>12</Rate>
+	<Beauty>999</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>先天阴浊气</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>000000FF</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>1.2</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>999</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>150</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>150</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>520</Value>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>3</Radius>
+		<Color>CAA9FEFF</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_wuseshengshi" Parent="RockBlockBase">
+	<ThingName>五色圣石</ThingName>
+	
+	<TexPath>Spr\Object\object_wuseshi.png</TexPath>	
+	<Desc>共工与颛顼争为天子不胜，怒而触不周之山，使天柱折，地维绝。女娲炼五色石以补苍天，断鳌足以立四极。</Desc>
+	<!--<Color>FFFFFFFF</Color>-->
+	<Rate>12</Rate>
+	<Beauty>999</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Chaos</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>五色圣石</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FFFFFFFF</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>1.2</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>999</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>150</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Chaos</Kind>
+		<Value>150</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>FEA9B1FF</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_jiutianxirang" Parent="RockBlockBase">
+	<ThingName>九天息壤</ThingName>
+	
+	<TexPath>Spr\Object\object_jiutianrang.png</TexPath>	
+	<Desc>天地初开有山岳草木无生气，古神女娲甚感寂寥。有感于日月无情，炼九天息壤以造人，依盘古与己身使其分阴阳。后为功德人皇娲皇氏。</Desc>
+	<!--<Color>000000</Color>-->
+	<Rate>12</Rate>
+	<Beauty>999</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Chaos</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>九天息壤</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_marble</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>12</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>000000</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>1.2</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>999</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>150</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Chaos</Kind>
+		<Value>150</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>A3CCFFFF</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="qiangweihong1wu" Parent="RockBlockBase">
+	<ThingName>蔷薇红砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FE8FB2F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蔷薇红砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FE8FB2F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="qiangweihong1jin" Parent="RockBlockBase">
+	<ThingName>蔷薇红砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FE8FB2F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蔷薇红砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FE8FB2F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="qiangweihong1mu" Parent="RockBlockBase">
+	<ThingName>蔷薇红砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FE8FB2F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蔷薇红砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FE8FB2F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="qiangweihong1shui" Parent="RockBlockBase">
+	<ThingName>蔷薇红砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FE8FB2F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蔷薇红砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FE8FB2F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="qiangweihong1huo" Parent="RockBlockBase">
+	<ThingName>蔷薇红砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FE8FB2F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蔷薇红砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FE8FB2F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="qiangweihong1tu" Parent="RockBlockBase">
+	<ThingName>蔷薇红砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FE8FB2F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蔷薇红砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FE8FB2F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="bosiju1wu" Parent="RockBlockBase">
+	<ThingName>浅波斯菊砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FCCCB6F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅波斯菊砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FCCCB6F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="bosiju1jin" Parent="RockBlockBase">
+	<ThingName>浅波斯菊砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FCCCB6F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅波斯菊砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FCCCB6F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="bosiju1mu" Parent="RockBlockBase">
+	<ThingName>浅波斯菊砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FCCCB6F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅波斯菊砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FCCCB6F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="bosiju1shui" Parent="RockBlockBase">
+	<ThingName>浅波斯菊砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FCCCB6F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅波斯菊砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FCCCB6F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="bosiju1huo" Parent="RockBlockBase">
+	<ThingName>浅波斯菊砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FCCCB6F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅波斯菊砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FCCCB6F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="bosiju1tu" Parent="RockBlockBase">
+	<ThingName>浅波斯菊砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FCCCB6F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅波斯菊砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FCCCB6F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui1wu" Parent="RockBlockBase">
+	<ThingName>冷月灰砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>D5CCD9F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>冷月灰砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>D5CCD9F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui1jin" Parent="RockBlockBase">
+	<ThingName>冷月灰砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>D5CCD9F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>冷月灰砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>D5CCD9F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui1mu" Parent="RockBlockBase">
+	<ThingName>冷月灰砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>D5CCD9F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>冷月灰砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>D5CCD9F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui1shui" Parent="RockBlockBase">
+	<ThingName>冷月灰砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>D5CCD9F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>冷月灰砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>D5CCD9F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui1huo" Parent="RockBlockBase">
+	<ThingName>冷月灰砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>D5CCD9F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>冷月灰砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>D5CCD9F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lengyuehui1tu" Parent="RockBlockBase">
+	<ThingName>冷月灰砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>D5CCD9F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>冷月灰砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>D5CCD9F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang1wu" Parent="RockBlockBase">
+	<ThingName>拿坡里黄砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FEF2B1F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>拿坡里黄砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FEF2B1F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang1jin" Parent="RockBlockBase">
+	<ThingName>拿坡里黄砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FEF2B1F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>拿坡里黄砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FEF2B1F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang1mu" Parent="RockBlockBase">
+	<ThingName>拿坡里黄砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FEF2B1F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>拿坡里黄砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FEF2B1F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang1shui" Parent="RockBlockBase">
+	<ThingName>拿坡里黄砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FEF2B1F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>拿坡里黄砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FEF2B1F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang1huo" Parent="RockBlockBase">
+	<ThingName>拿坡里黄砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FEF2B1F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>拿坡里黄砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FEF2B1F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="napolihuang1tu" Parent="RockBlockBase">
+	<ThingName>拿坡里黄砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FEF2B1F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>拿坡里黄砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FEF2B1F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui1wu" Parent="RockBlockBase">
+	<ThingName>浅豆灰砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>DFEBBFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅豆灰砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>DFEBBFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui1jin" Parent="RockBlockBase">
+	<ThingName>浅豆灰砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>DFEBBFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅豆灰砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>DFEBBFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui1mu" Parent="RockBlockBase">
+	<ThingName>浅豆灰砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>DFEBBFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅豆灰砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>DFEBBFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui1shui" Parent="RockBlockBase">
+	<ThingName>浅豆灰砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>DFEBBFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅豆灰砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>DFEBBFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui1huo" Parent="RockBlockBase">
+	<ThingName>浅豆灰砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>DFEBBFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅豆灰砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>DFEBBFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qiandouhui1tu" Parent="RockBlockBase">
+	<ThingName>浅豆灰砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>DFEBBFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>浅豆灰砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>DFEBBFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu1wu" Parent="RockBlockBase">
+	<ThingName>马尔代夫砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CFFEB8F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>马尔代夫砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CFFEB8F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu1jin" Parent="RockBlockBase">
+	<ThingName>马尔代夫砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CFFEB8F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>马尔代夫砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CFFEB8F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu1mu" Parent="RockBlockBase">
+	<ThingName>马尔代夫砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CFFEB8F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>马尔代夫砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CFFEB8F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu1shui" Parent="RockBlockBase">
+	<ThingName>马尔代夫砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CFFEB8F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>马尔代夫砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CFFEB8F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu1huo" Parent="RockBlockBase">
+	<ThingName>马尔代夫砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CFFEB8F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>马尔代夫砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CFFEB8F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="maerdaifu1tu" Parent="RockBlockBase">
+	<ThingName>马尔代夫砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CFFEB8F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>马尔代夫砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CFFEB8F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing1wu" Parent="RockBlockBase">
+	<ThingName>春日青砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>9BF9EEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>春日青砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>9BF9EEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing1jin" Parent="RockBlockBase">
+	<ThingName>春日青砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>9BF9EEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>春日青砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>9BF9EEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing1mu" Parent="RockBlockBase">
+	<ThingName>春日青砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>9BF9EEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>春日青砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>9BF9EEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing1shui" Parent="RockBlockBase">
+	<ThingName>春日青砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>9BF9EEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>春日青砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>9BF9EEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing1huo" Parent="RockBlockBase">
+	<ThingName>春日青砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>9BF9EEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>春日青砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>9BF9EEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="chunriqing1tu" Parent="RockBlockBase">
+	<ThingName>春日青砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>9BF9EEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>春日青砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>9BF9EEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan1wu" Parent="RockBlockBase">
+	<ThingName>温莎蓝砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>A3C4FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>温莎蓝砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>A3C4FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>08</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan1jin" Parent="RockBlockBase">
+	<ThingName>温莎蓝砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>A3C4FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>温莎蓝砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>A3C4FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>08</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan1mu" Parent="RockBlockBase">
+	<ThingName>温莎蓝砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>A3C4FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>温莎蓝砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>A3C4FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>08</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan1shui" Parent="RockBlockBase">
+	<ThingName>温莎蓝砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>A3C4FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>温莎蓝砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>A3C4FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>08</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan1huo" Parent="RockBlockBase">
+	<ThingName>温莎蓝砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>A3C4FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>温莎蓝砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>A3C4FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>08</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="wenshalan1tu" Parent="RockBlockBase">
+	<ThingName>温莎蓝砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>A3C4FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>温莎蓝砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>A3C4FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>08</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi1wu" Parent="RockBlockBase">
+	<ThingName>普罗旺斯砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CCC7FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普罗旺斯砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CCC7FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi1jin" Parent="RockBlockBase">
+	<ThingName>普罗旺斯砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CCC7FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普罗旺斯砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CCC7FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi1mu" Parent="RockBlockBase">
+	<ThingName>普罗旺斯砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CCC7FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普罗旺斯砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CCC7FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi1shui" Parent="RockBlockBase">
+	<ThingName>普罗旺斯砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CCC7FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普罗旺斯砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CCC7FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi1huo" Parent="RockBlockBase">
+	<ThingName>普罗旺斯砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CCC7FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普罗旺斯砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CCC7FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="puluowangsi1tu" Parent="RockBlockBase">
+	<ThingName>普罗旺斯砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>CCC7FEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普罗旺斯砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>CCC7FEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing1wu" Parent="RockBlockBase">
+	<ThingName>雪青砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>E7D7EDF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>雪青砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>E7D7EDF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing1jin" Parent="RockBlockBase">
+	<ThingName>雪青砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>E7D7EDF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>雪青砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>E7D7EDF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing1mu" Parent="RockBlockBase">
+	<ThingName>雪青砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>E7D7EDF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>雪青砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>E7D7EDF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing1shui" Parent="RockBlockBase">
+	<ThingName>雪青砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>E7D7EDF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>雪青砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>E7D7EDF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing1huo" Parent="RockBlockBase">
+	<ThingName>雪青砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>E7D7EDF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>雪青砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>E7D7EDF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xueqing1tu" Parent="RockBlockBase">
+	<ThingName>雪青砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>E7D7EDF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>雪青砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>E7D7EDF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei1wu" Parent="RockBlockBase">
+	<ThingName>淡妃砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FAC8C0F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>淡妃砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FAC8C0F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei1jin" Parent="RockBlockBase">
+	<ThingName>淡妃砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FAC8C0F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>淡妃砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FAC8C0F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei1mu" Parent="RockBlockBase">
+	<ThingName>淡妃砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FAC8C0F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>淡妃砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FAC8C0F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei1shui" Parent="RockBlockBase">
+	<ThingName>淡妃砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FAC8C0F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>淡妃砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FAC8C0F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei1huo" Parent="RockBlockBase">
+	<ThingName>淡妃砖·火金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FAC8C0F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>淡妃砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FAC8C0F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="danfei1tu" Parent="RockBlockBase">
+	<ThingName>淡妃砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>FAC8C0F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>淡妃砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>FAC8C0F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina1wu" Parent="RockBlockBase">
+	<ThingName>云尼拿砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>5FA9BCF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>云尼拿砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>5FA9BCF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina1jin" Parent="RockBlockBase">
+	<ThingName>云尼拿砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>5FA9BCF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>云尼拿砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>5FA9BCF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina1mu" Parent="RockBlockBase">
+	<ThingName>云尼拿砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>5FA9BCF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>云尼拿砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>5FA9BCF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina1shui" Parent="RockBlockBase">
+	<ThingName>云尼拿砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>5FA9BCF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>云尼拿砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>5FA9BCF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina1huo" Parent="RockBlockBase">
+	<ThingName>云尼拿砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>5FA9BCF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>云尼拿砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>5FA9BCF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yunnina1tu" Parent="RockBlockBase">
+	<ThingName>云尼拿砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>5FA9BCF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>云尼拿砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>5FA9BCF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan1wu" Parent="RockBlockBase">
+	<ThingName>景德蓝砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>224D81F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>景德蓝砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>224D81F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan1jin" Parent="RockBlockBase">
+	<ThingName>景德蓝砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>224D81F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>景德蓝砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>224D81F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan1mu" Parent="RockBlockBase">
+	<ThingName>景德蓝砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>224D81F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>景德蓝砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>224D81F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan1shui" Parent="RockBlockBase">
+	<ThingName>景德蓝砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>224D81F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>景德蓝砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>224D81F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan1huo" Parent="RockBlockBase">
+	<ThingName>景德蓝砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>224D81F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>景德蓝砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>224D81F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="jingdelan1tu" Parent="RockBlockBase">
+	<ThingName>景德蓝砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>224D81F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>景德蓝砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>224D81F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian1wu" Parent="RockBlockBase">
+	<ThingName>蓝莲砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>584285F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蓝莲砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>584285F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian1jin" Parent="RockBlockBase">
+	<ThingName>蓝莲砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>584285F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蓝莲砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>584285F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian1mu" Parent="RockBlockBase">
+	<ThingName>蓝莲砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>584285F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蓝莲砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>584285F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian1shui" Parent="RockBlockBase">
+	<ThingName>蓝莲砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>584285F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蓝莲砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>584285F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian1huo" Parent="RockBlockBase">
+	<ThingName>蓝莲砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>584285F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蓝莲砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>584285F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="lanlian1tu" Parent="RockBlockBase">
+	<ThingName>蓝莲砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>584285F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>蓝莲砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>584285F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang1wu" Parent="RockBlockBase">
+	<ThingName>匈牙利丁香砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>491636F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>491636F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang1jin" Parent="RockBlockBase">
+	<ThingName>匈牙利丁香砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>491636F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>491636F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang1mu" Parent="RockBlockBase">
+	<ThingName>匈牙利丁香砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>491636F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>491636F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang1shui" Parent="RockBlockBase">
+	<ThingName>匈牙利丁香砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>491636F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>491636F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang1huo" Parent="RockBlockBase">
+	<ThingName>匈牙利丁香砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>491636F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>491636F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="xiongyalidingxiang1tu" Parent="RockBlockBase">
+	<ThingName>匈牙利丁香砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>491636F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>匈牙利丁香砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>491636F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv1wu" Parent="RockBlockBase">
+	<ThingName>橄榄绿砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>565E44F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>橄榄绿砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>565E44F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv1jin" Parent="RockBlockBase">
+	<ThingName>橄榄绿砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>565E44F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>橄榄绿砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>565E44F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv1mu" Parent="RockBlockBase">
+	<ThingName>橄榄绿砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>565E44F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>橄榄绿砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>565E44F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv1shui" Parent="RockBlockBase">
+	<ThingName>橄榄绿砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>565E44F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>橄榄绿砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>565E44F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv1huo" Parent="RockBlockBase">
+	<ThingName>橄榄绿砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>565E44F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>橄榄绿砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>565E44F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="ganlanlv1tu" Parent="RockBlockBase">
+	<ThingName>橄榄绿砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>565E44F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>橄榄绿砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>565E44F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi1wu" Parent="RockBlockBase">
+	<ThingName>起司砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F8FDDFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>起司砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F8FDDFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi1jin" Parent="RockBlockBase">
+	<ThingName>起司砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F8FDDFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>起司砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F8FDDFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi1mu" Parent="RockBlockBase">
+	<ThingName>起司砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F8FDDFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>起司砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F8FDDFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi1shui" Parent="RockBlockBase">
+	<ThingName>起司砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F8FDDFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>起司砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F8FDDFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi1huo" Parent="RockBlockBase">
+	<ThingName>起司砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F8FDDFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>起司砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F8FDDFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="qisi1tu" Parent="RockBlockBase">
+	<ThingName>起司砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F8FDDFF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>起司砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F8FDDFF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui1wu" Parent="RockBlockBase">
+	<ThingName>赭石灰砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>99807AF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>赭石灰砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>99807AF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui1jin" Parent="RockBlockBase">
+	<ThingName>赭石灰砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>99807AF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>赭石灰砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>99807AF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui1mu" Parent="RockBlockBase">
+	<ThingName>赭石灰砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>99807AF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>赭石灰砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>99807AF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui1shui" Parent="RockBlockBase">
+	<ThingName>赭石灰砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>99807AF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>赭石灰砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>99807AF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui1huo" Parent="RockBlockBase">
+	<ThingName>赭石灰砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>99807AF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>赭石灰砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>99807AF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="zheshihui1tu" Parent="RockBlockBase">
+	<ThingName>赭石灰砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>99807AF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>赭石灰砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>99807AF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan1wu" Parent="RockBlockBase">
+	<ThingName>普蓝砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>001751F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普蓝砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>001751F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan1jin" Parent="RockBlockBase">
+	<ThingName>普蓝砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>001751F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普蓝砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>001751F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan1mu" Parent="RockBlockBase">
+	<ThingName>普蓝砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>001751F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普蓝砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>001751F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan1shui" Parent="RockBlockBase">
+	<ThingName>普蓝砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>001751F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普蓝砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>001751F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan1huo" Parent="RockBlockBase">
+	<ThingName>普蓝砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>001751F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普蓝砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>001751F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="pulan1tu" Parent="RockBlockBase">
+	<ThingName>普蓝砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>001751F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>普蓝砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>001751F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv1wu" Parent="RockBlockBase">
+	<ThingName>墨绿砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>063D2EF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>墨绿砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>063D2EF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv1jin" Parent="RockBlockBase">
+	<ThingName>墨绿砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>063D2EF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>墨绿砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>063D2EF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv1mu" Parent="RockBlockBase">
+	<ThingName>墨绿砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>063D2EF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>墨绿砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>063D2EF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv1shui" Parent="RockBlockBase">
+	<ThingName>墨绿砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>063D2EF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>墨绿砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>063D2EF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv1huo" Parent="RockBlockBase">
+	<ThingName>墨绿砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>063D2EF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>墨绿砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>063D2EF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="molv1tu" Parent="RockBlockBase">
+	<ThingName>墨绿砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>063D2EF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>墨绿砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>063D2EF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei1wu" Parent="RockBlockBase">
+	<ThingName>暖辐黑砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>250003F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>暖辐黑砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>250003F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei1jin" Parent="RockBlockBase">
+	<ThingName>暖辐黑砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>250003F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>暖辐黑砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>250003F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei1mu" Parent="RockBlockBase">
+	<ThingName>暖辐黑砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>250003F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>暖辐黑砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>250003F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei1shui" Parent="RockBlockBase">
+	<ThingName>暖辐黑砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>250003F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>暖辐黑砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>250003F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei1huo" Parent="RockBlockBase">
+	<ThingName>暖辐黑砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>250003F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>暖辐黑砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>250003F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="nuanfuhei1tu" Parent="RockBlockBase">
+	<ThingName>暖辐黑砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>250003F2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>暖辐黑砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>250003F2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai1wu" Parent="RockBlockBase">
+	<ThingName>映雪白砖·无</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F7FEFEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>映雪白砖·无</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F7FEFEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>None</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai1jin" Parent="RockBlockBase">
+	<ThingName>映雪白砖·金</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F7FEFEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>映雪白砖·金</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F7FEFEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai1mu" Parent="RockBlockBase">
+	<ThingName>映雪白砖·木</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F7FEFEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>映雪白砖·木</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F7FEFEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai1shui" Parent="RockBlockBase">
+	<ThingName>映雪白砖·水</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F7FEFEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>映雪白砖·水</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F7FEFEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai1huo" Parent="RockBlockBase">
+	<ThingName>映雪白砖·火</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F7FEFEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>映雪白砖·火</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F7FEFEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="yingxuebai1tu" Parent="RockBlockBase">
+	<ThingName>映雪白砖·土</ThingName>
+	
+	<TexPath>res\Sprs\object\object_tianzhuzhuan</TexPath>	
+	<Desc>紫霄仙境特产建材，美轮美奂，灵气氤氲，坚不可摧，变化万千。以此为材的建筑对修行者有极大助益。</Desc>
+	<!--<Color>>F7FEFEF2</Color>-->
+	<Rate>10</Rate>
+	<Beauty>18</Beauty>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<Item>
+		<PhysicalLables>
+			<li>Heavy1</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<BeMaterial>
+			<NamePrefix>映雪白砖·土</NamePrefix>
+			<StuffTexPath>res/mattex/mtl_xianzhu</StuffTexPath>
+			
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<WorkSpeedCoefficientWhenBeMain>2.5</WorkSpeedCoefficientWhenBeMain>
+			
+			<ColorWhenBeMain>F7FEFEF2</ColorWhenBeMain>
+			
+			<CostMultiplier>1</CostMultiplier>
+			<PracticeEffectivenessWhenBeMain>2.4</PracticeEffectivenessWhenBeMain>
+			
+			<BeautyWhenBeMain>18</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>24</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "1"/>
+			</CostItems>
+		</BeMade> 
+    	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>24</Value>         
+		<Radius>3</Radius>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>
+
+</List></ThingDefs>

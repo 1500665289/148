@@ -1,0 +1,352 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Building" Name="WallBase" Parent="BuildingBase">
+		<TexPath></TexPath>
+		<ThingName></ThingName>
+		<Desc>WallBase</Desc>
+		<SelectAble>1</SelectAble>	
+		<CastShadow>1</CastShadow>
+		<BlockLight>1</BlockLight>
+		<Beauty>1</Beauty>
+		<UseHitPoints>1</UseHitPoints>
+		<MaxHitPoints>30</MaxHitPoints>
+		<VisionRadius>10</VisionRadius>
+		<Flammability>
+			<Flammability>0.2</Flammability>
+			<FlameSpawnThingDef></FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+		</Flammability>
+		<ElementKind>None</ElementKind>
+		
+		<Collider>
+			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+			<Data>
+			[3]
+			</Data>
+		</Collider>
+		
+		<Building>
+			<NoFengshui>1</NoFengshui>
+			<BuildMode>Line</BuildMode>
+			<CanMakeRoom>1</CanMakeRoom>
+			<BeMade>
+				<InheritStuffTileID>1</InheritStuffTileID>
+				<WorkToMake>14</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+					<Stuff name = "Plant"/>
+				</StuffCategories>
+				<CostStuffCount>1</CostStuffCount>
+			</BeMade>
+		</Building>
+
+	<Element>
+		<Kind>None</Kind>
+		<Value>1</Value>         
+		<Radius>2</Radius>
+		<Failing>1</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	<Light>
+		<Value>0</Value>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+		<Radius>0</Radius>
+		<Color>None</Color>
+	</Light>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="DoorBase" Parent="BuildingBase">
+		<TexPath></TexPath>
+		<TileID>0</TileID>
+		<ThingName></ThingName>
+		<Desc>DoorBase</Desc>
+		<SelectAble>1</SelectAble>	
+		<CastShadow>1</CastShadow>
+		<BlockLight>1</BlockLight>
+		<Beauty>1</Beauty>
+		<UseHitPoints>1</UseHitPoints>
+		<MaxHitPoints>200</MaxHitPoints>
+		<ElementKind>None</ElementKind>
+		
+		<Flammability>
+			<Flammability>0.2</Flammability>
+			<FlameSpawnThingDef></FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+		</Flammability>
+		<ColliderKind>Slow</ColliderKind><!--解释一下，这么配置是让穿过门的时候有减速效果-->
+		<Collider>
+			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+			<Data>
+			[7]
+			</Data>
+			<Offset>
+				<y>0.62</y>
+			</Offset>
+		</Collider>
+		
+		<Building>
+			<NoFengshui>1</NoFengshui>
+			<IsDoor>1</IsDoor>
+			<HelperClass>BuildingHelperDoor</HelperClass>
+			<CanMakeRoom>1</CanMakeRoom>
+			<BeMade>
+				<WorkToMake>30</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>2</CostStuffCount>
+			</BeMade>
+		</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>1</Value>         
+		<Radius>2</Radius>
+		<Failing>1</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Light>
+		<Value>0</Value>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+		<Radius>0</Radius>
+		<Color>None</Color>
+	</Light>
+	</ThingDef>	
+
+
+	
+	<ThingDef Type="Building" Name="hongdengguangqiang" Parent="WallBase">
+		<TileID>-11</TileID>
+		<ThingName>红色光墙</ThingName>
+		<Desc>基本的建筑结构，可以和山体一起围成封闭的房屋。房间最小需要3格，最大不能超过400格。</Desc>	
+		<Building>
+			<BeMade>
+				<InheritStuffTileID>1</InheritStuffTileID>
+			</BeMade>
+		</Building>
+	<Light>
+		<Value>60</Value>
+		<Failing>0</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>4</Radius>
+		<Color>FE7D99CC</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="chengdengguangqiang" Parent="WallBase">
+		<TileID>-11</TileID>
+		<ThingName>橙色光墙</ThingName>
+		<Desc>基本的建筑结构，可以和山体一起围成封闭的房屋。房间最小需要3格，最大不能超过400格。</Desc>	
+		<Building>
+			<BeMade>
+				<InheritStuffTileID>1</InheritStuffTileID>
+			</BeMade>
+		</Building>
+	<Light>
+		<Value>60</Value>
+		<Failing>0</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>4</Radius>
+		<Color>FEAC6ECC</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="huangdengguangqiang" Parent="WallBase">
+		<TileID>-11</TileID>
+		<ThingName>黄色光墙</ThingName>
+		<Desc>基本的建筑结构，可以和山体一起围成封闭的房屋。房间最小需要3格，最大不能超过400格。</Desc>	
+		<Building>
+			<BeMade>
+				<InheritStuffTileID>1</InheritStuffTileID>
+			</BeMade>
+		</Building>
+	<Light>
+		<Value>60</Value>
+		<Failing>0</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>4</Radius>
+		<Color>FFE877CC</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="lvdengguangqiang" Parent="WallBase">
+		<TileID>-11</TileID>
+		<ThingName>青色光墙</ThingName>
+		<Desc>基本的建筑结构，可以和山体一起围成封闭的房屋。房间最小需要3格，最大不能超过400格。</Desc>	
+		<Building>
+			<BeMade>
+				<InheritStuffTileID>1</InheritStuffTileID>
+			</BeMade>
+		</Building>
+	<Light>
+		<Value>60</Value>
+		<Failing>0</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>4</Radius>
+		<Color>44FDEBE6</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="qingdengguangqiang" Parent="WallBase">
+		<TileID>-11</TileID>
+		<ThingName>蓝色光墙</ThingName>
+		<Desc>基本的建筑结构，可以和山体一起围成封闭的房屋。房间最小需要3格，最大不能超过400格。</Desc>	
+		<Building>
+			<BeMade>
+				<InheritStuffTileID>1</InheritStuffTileID>
+			</BeMade>
+		</Building>
+	<Light>
+		<Value>60</Value>
+		<Failing>0</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>4</Radius>
+		<Color>40B6FFE6</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="landengguangqiang" Parent="WallBase">
+		<TileID>-11</TileID>
+		<ThingName>紫色光墙</ThingName>
+		<Desc>基本的建筑结构，可以和山体一起围成封闭的房屋。房间最小需要3格，最大不能超过400格。</Desc>	
+		<Building>
+			<BeMade>
+				<InheritStuffTileID>1</InheritStuffTileID>
+			</BeMade>
+		</Building>
+	<Light>
+		<Value>60</Value>
+		<Failing>0</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>4</Radius>
+		<Color>684BFEE6</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="zidengguangqiang" Parent="WallBase">
+		<TileID>-11</TileID>
+		<ThingName>白色光墙</ThingName>
+		<Desc>基本的建筑结构，可以和山体一起围成封闭的房屋。房间最小需要3格，最大不能超过400格。</Desc>	
+		<Building>
+			<BeMade>
+				<InheritStuffTileID>1</InheritStuffTileID>
+			</BeMade>
+		</Building>
+	<Light>
+		<Value>120</Value>
+		<Failing>0</Failing>
+		<FailRadius>5</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDFEE0FF</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="Door_hongdengguangmen" Parent="DoorBase">		
+		<TexPath>res/Sprs/building/building_door</TexPath>
+		<ThingName>红色光门</ThingName>
+		<Desc>基本的结构建筑，可供人进出房间。能发出柔光，令人心情宁和。</Desc>	
+	<Light>
+		<Value>50</Value>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>2</Radius>
+		<Color>FD3C73FF</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="Door_huangdengguangmen" Parent="DoorBase">		
+		<TexPath>res/Sprs/building/building_door</TexPath>
+		<ThingName>橙色光门</ThingName>
+		<Desc>基本的结构建筑，可供人进出房间。能发出柔光，令人心情宁和。</Desc>	
+	<Light>
+		<Value>50</Value>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>2</Radius>
+		<Color>FC7915FF</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="Door_chengdengguangmen" Parent="DoorBase">		
+		<TexPath>res/Sprs/building/building_door</TexPath>
+		<ThingName>黄色光门</ThingName>
+		<Desc>基本的结构建筑，可供人进出房间。能发出柔光，令人心情宁和。</Desc>	
+	<Light>
+		<Value>50</Value>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>2</Radius>
+		<Color>FED01BFF</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="Door_lvdengguangmen" Parent="DoorBase">		
+		<TexPath>res/Sprs/building/building_door</TexPath>
+		<ThingName>青色光门</ThingName>
+		<Desc>基本的结构建筑，可供人进出房间。能发出柔光，令人心情宁和。</Desc>	
+	<Light>
+		<Value>50</Value>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>2</Radius>
+		<Color>02FDADFF</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="Door_qingdengguangmen" Parent="DoorBase">		
+		<TexPath>res/Sprs/building/building_door</TexPath>
+		<ThingName>蓝色光门</ThingName>
+		<Desc>基本的结构建筑，可供人进出房间。能发出柔光，令人心情宁和。</Desc>	
+	<Light>
+		<Value>50</Value>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>2</Radius>
+		<Color>1877FBFF</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="Door_landengguangmen" Parent="DoorBase">		
+		<TexPath>res/Sprs/building/building_door</TexPath>
+		<ThingName>紫色光门</ThingName>
+		<Desc>基本的结构建筑，可供人进出房间。能发出柔光，令人心情宁和。</Desc>	
+	<Light>
+		<Value>50</Value>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>2</Radius>
+		<Color>640BFDFF</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="Door_zidengguangmen" Parent="DoorBase">		
+		<TexPath>res/Sprs/building/building_door</TexPath>
+		<ThingName>白色光门</ThingName>
+		<Desc>基本的结构建筑，可供人进出房间。能发出柔光，令人心情宁和。</Desc>	
+	<Light>
+		<Value>50</Value>
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>2</Radius>
+		<Color>FEFEF7FF</Color>
+	</Light>
+	</ThingDef>
+
+	
+</List></ThingDefs>

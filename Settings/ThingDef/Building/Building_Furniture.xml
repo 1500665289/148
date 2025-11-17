@@ -1,0 +1,2233 @@
+﻿<ThingDefs><List>
+	
+	<ThingDef Type="Building" Name="hongdeng1" Parent="FurnitureBase">
+	<ThingName>红色木灯柱</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern6b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.8</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.55</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>7</FailRadius>
+		<Radius>14</Radius>
+		<Color>FE1469FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern6a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.3</x>
+			<y>4.1</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="chengdeng1" Parent="FurnitureBase">
+	<ThingName>橙色木灯柱</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern6b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.8</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.55</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>7</FailRadius>
+		<Radius>14</Radius>
+		<Color>FE6614FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern6a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.3</x>
+			<y>4.1</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="huangdeng1" Parent="FurnitureBase">
+	<ThingName>黄色木灯柱</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern6b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.8</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.55</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>7</FailRadius>
+		<Radius>14</Radius>
+		<Color>FCD512FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern6a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.3</x>
+			<y>4.1</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="lvdeng1" Parent="FurnitureBase">
+	<ThingName>绿色木灯柱</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern6b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.8</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.55</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>7</FailRadius>
+		<Radius>14</Radius>
+		<Color>B1F60FFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern6a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.3</x>
+			<y>4.1</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="qingdeng1" Parent="FurnitureBase">
+	<ThingName>青色木灯柱</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern6b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.8</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.55</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>7</FailRadius>
+		<Radius>14</Radius>
+		<Color>12FEA0FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern6a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.3</x>
+			<y>4.1</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="landeng1" Parent="FurnitureBase">
+	<ThingName>蓝色木灯柱</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern6b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.8</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.55</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>7</FailRadius>
+		<Radius>14</Radius>
+		<Color>19BDFEFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern6a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.3</x>
+			<y>4.1</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="zideng1" Parent="FurnitureBase">
+	<ThingName>紫色木灯柱</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern6b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.8</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.55</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>7</FailRadius>
+		<Radius>14</Radius>
+		<Color>7C1AFEFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern6a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.3</x>
+			<y>4.1</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="baideng1" Parent="FurnitureBase">
+	<ThingName>白色木灯柱</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern6b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.8</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.55</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>7</FailRadius>
+		<Radius>14</Radius>
+		<Color>FEFEFAFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern6a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.3</x>
+			<y>4.1</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="hongdeng2" Parent="Lantern1">
+	<ThingName>灯笼-照影红</ThingName>	
+	<TexPath>res/Sprs/building/building_lantern3b</TexPath>
+	<TexScale>0.9</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<x>0</x>
+			<y>0.7</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>75</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>ff6292FF</Color>
+	</Light>
+	
+	<Building>
+		<WorkTexPath>res/Sprs/building/building_lantern3a</WorkTexPath>
+		<SnowRenderData>
+			<x>3.2</x>
+			<y>3.9</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="chengdeng2" Parent="Lantern1">
+	<ThingName>灯笼-照影橙</ThingName>	
+	<TexPath>res/Sprs/building/building_lantern3b</TexPath>
+	<TexScale>0.9</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<x>0</x>
+			<y>0.7</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>75</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>ff8b62FF</Color>
+	</Light>
+	
+	<Building>
+		<WorkTexPath>res/Sprs/building/building_lantern3a</WorkTexPath>
+		<SnowRenderData>
+			<x>3.2</x>
+			<y>3.9</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="huangdeng2" Parent="Lantern1">
+	<ThingName>灯笼-照影黄</ThingName>	
+	<TexPath>res/Sprs/building/building_lantern3b</TexPath>
+	<TexScale>0.9</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<x>0</x>
+			<y>0.7</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>75</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>ffd862FF</Color>
+	</Light>
+	
+	<Building>
+		<WorkTexPath>res/Sprs/building/building_lantern3a</WorkTexPath>
+		<SnowRenderData>
+			<x>3.2</x>
+			<y>3.9</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="lvdeng2" Parent="Lantern1">
+	<ThingName>灯笼-照影绿</ThingName>	
+	<TexPath>res/Sprs/building/building_lantern3b</TexPath>
+	<TexScale>0.9</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<x>0</x>
+			<y>0.7</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>75</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>b4f282FF</Color>
+	</Light>
+	
+	<Building>
+		<WorkTexPath>res/Sprs/building/building_lantern3a</WorkTexPath>
+		<SnowRenderData>
+			<x>3.2</x>
+			<y>3.9</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="qingdeng2" Parent="Lantern1">
+	<ThingName>灯笼-照影青</ThingName>	
+	<TexPath>res/Sprs/building/building_lantern3b</TexPath>
+	<TexScale>0.9</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<x>0</x>
+			<y>0.7</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>75</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>43ffc3FF</Color>
+	</Light>
+	
+	<Building>
+		<WorkTexPath>res/Sprs/building/building_lantern3a</WorkTexPath>
+		<SnowRenderData>
+			<x>3.2</x>
+			<y>3.9</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="landeng2" Parent="Lantern1">
+	<ThingName>灯笼-照影蓝</ThingName>	
+	<TexPath>res/Sprs/building/building_lantern3b</TexPath>
+	<TexScale>0.9</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<x>0</x>
+			<y>0.7</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>75</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>62beffFF</Color>
+	</Light>
+	
+	<Building>
+		<WorkTexPath>res/Sprs/building/building_lantern3a</WorkTexPath>
+		<SnowRenderData>
+			<x>3.2</x>
+			<y>3.9</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="zideng2" Parent="Lantern1">
+	<ThingName>灯笼-照影紫</ThingName>	
+	<TexPath>res/Sprs/building/building_lantern3b</TexPath>
+	<TexScale>0.9</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<x>0</x>
+			<y>0.7</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>75</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>ab67ffFF</Color>
+	</Light>
+	
+	<Building>
+		<WorkTexPath>res/Sprs/building/building_lantern3a</WorkTexPath>
+		<SnowRenderData>
+			<x>3.2</x>
+			<y>3.9</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="baideng2" Parent="Lantern1">
+	<ThingName>灯笼-照影白</ThingName>	
+	<TexPath>res/Sprs/building/building_lantern3b</TexPath>
+	<TexScale>0.9</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<x>0</x>
+			<y>0.7</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>75</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>defeffFF</Color>
+	</Light>
+	
+	<Building>
+		<WorkTexPath>res/Sprs/building/building_lantern3a</WorkTexPath>
+		<SnowRenderData>
+			<x>3.2</x>
+			<y>3.9</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="hongdeng3" Parent="FurnitureBase">
+	<ThingName>灯柱甲红</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_streetlight001a</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.1</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>ff80bfFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_streetlight001b</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.78</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="chengdeng3" Parent="FurnitureBase">
+	<ThingName>灯柱甲橙</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_streetlight001a</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.1</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>ff9b96FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_streetlight001b</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.78</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="huangdeng3" Parent="FurnitureBase">
+	<ThingName>灯柱甲黄</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_streetlight001a</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.1</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>feff98FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_streetlight001b</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.78</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="lvdeng3" Parent="FurnitureBase">
+	<ThingName>灯柱甲绿</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_streetlight001a</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.1</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>81ffbfFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_streetlight001b</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.78</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="qingdeng3" Parent="FurnitureBase">
+	<ThingName>灯柱甲青</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_streetlight001a</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.1</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>98fff7FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_streetlight001b</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.78</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="landeng3" Parent="FurnitureBase">
+	<ThingName>灯柱甲蓝</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_streetlight001a</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.1</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>50abffFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_streetlight001b</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.78</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="zideng3" Parent="FurnitureBase">
+	<ThingName>灯柱甲紫</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_streetlight001a</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.1</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>8c75ffFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_streetlight001b</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.78</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="baideng3" Parent="FurnitureBase">
+	<ThingName>灯柱甲白</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_streetlight001a</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.1</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>eefeffFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_streetlight001b</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.78</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="hongdeng4" Parent="FurnitureBase">
+	<ThingName>灯柱乙红</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern7b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>ff9580FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern7a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="chengdeng4" Parent="FurnitureBase">
+	<ThingName>灯柱乙橙</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern7b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>ffbe80FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern7a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="huangdeng4" Parent="FurnitureBase">
+	<ThingName>灯柱乙黄</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern7b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>ffd257FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern7a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="lvdeng4" Parent="FurnitureBase">
+	<ThingName>灯柱乙绿</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern7b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>dcff39FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern7a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="qingdeng4" Parent="FurnitureBase">
+	<ThingName>灯柱乙青</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern7b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>65ff9bFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern7a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="landeng4" Parent="FurnitureBase">
+	<ThingName>灯柱乙蓝</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern7b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>73a4ffFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern7a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="zideng4" Parent="FurnitureBase">
+	<ThingName>灯柱乙紫</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern7b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>c273ffFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern7a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="baideng4" Parent="FurnitureBase">
+	<ThingName>灯柱乙白</ThingName>	
+	<Desc>精美的照明建筑，会在夜晚点亮，照亮周围。</Desc>
+	<TexPath>res/Sprs/building/building_lantern7b</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	
+	<ShadowSize>
+		<x>0.7</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.25</y>
+		</Offset>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>fff4e7FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>res/Sprs/building/building_lantern7a</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="shujixinghuangdeng" Parent="FurnitureBase">
+	<ThingName>天地中央戊己杏黄灯</ThingName>	
+	<Desc>金莲万朵，无物可破；诸邪避退，万法不侵。</Desc>
+	<TexPath>Spr/Building/building_tub.png</TexPath>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Tu</ElementKind>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>0</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[2],
+		</Data>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDF6ACFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>Spr/Building/building_tua.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>20</CostStuffCount>
+		</BeMade>
+
+	</Building>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>25</Value>         
+		<Radius>4</Radius>
+		<Failing>5</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="qinglianbaosedeng" Parent="FurnitureBase">
+	<ThingName>天地东方青莲宝色灯</ThingName>	
+	<Desc>舍利毫光，宁心静气；诸邪避退，万法不侵。</Desc>
+	<TexPath>Spr/Building/building_shuib.png</TexPath>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Shui</ElementKind>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>0</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[2],
+		</Data>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>84FCFEFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>Spr/Building/building_shuia.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>20</CostStuffCount>
+		</BeMade>
+
+	</Building>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>25</Value>         
+		<Radius>4</Radius>
+		<Failing>5</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="suseyunjiedeng" Parent="FurnitureBase">
+	<ThingName>天地西方素色云界灯</ThingName>	
+	<Desc>奇象氤氲，天地皆明；诸邪避退，万法不侵。</Desc>
+	<TexPath>Spr/Building/building_mub.png</TexPath>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Mu</ElementKind>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>0</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[2],
+		</Data>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>9FFDCEFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>Spr/Building/building_mua.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>20</CostStuffCount>
+		</BeMade>
+
+	</Building>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>25</Value>         
+		<Radius>4</Radius>
+		<Failing>5</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="lidiyanguangdeng" Parent="FurnitureBase">
+	<ThingName>天地南方离地焰光灯</ThingName>	
+	<Desc>混乱阴阳，颠倒五行；诸邪避退，万法不侵。</Desc>
+	<TexPath>Spr/Building/building_huob.png</TexPath>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Huo</ElementKind>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>0</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[2],
+		</Data>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>FCBFC6FF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>Spr/Building/building_huoa.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>20</CostStuffCount>
+		</BeMade>
+
+	</Building>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>25</Value>         
+		<Radius>4</Radius>
+		<Failing>5</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="zhenwuzaodiaodeng" Parent="FurnitureBase">
+	<ThingName>天地北方真武皂雕灯</ThingName>	
+	<Desc>朦胧乾坤，遮天蔽日；诸邪避退，万法不侵。</Desc>
+	<TexPath>Spr/Building/building_jinb.png</TexPath>
+	<NoElementKind>0</NoElementKind>
+	<ElementKind>Jin</ElementKind>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>0</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[2],
+		</Data>
+	</Collider>
+	
+	<Light>
+		<Value>110</Value>
+		<Failing>0</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>8</Radius>
+		<Color>B3B5FEFF</Color>
+	</Light>
+	
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<WorkTexPath>Spr/Building/building_jina.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>20</CostStuffCount>
+		</BeMade>
+
+	</Building>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>25</Value>         
+		<Radius>4</Radius>
+		<Failing>5</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="hongguangyuan1" Parent="FurnitureBase">
+	<ThingName>红色光源(小）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>ff536fFF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="chengguangyuan1" Parent="FurnitureBase">
+	<ThingName>橙色光源(小）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>ff7c25FF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="huangguangyuan1" Parent="FurnitureBase">
+	<ThingName>黄色光源(小）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>ffd737FF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="qingguangyuan1" Parent="FurnitureBase">
+	<ThingName>青色光源(小）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>36ffd7FF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="languangyuan1" Parent="FurnitureBase">
+	<ThingName>蓝色光源(小）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>31afffFF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="ziguangyuan1" Parent="FurnitureBase">
+	<ThingName>紫色光源(小）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>6248ffFF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="baiguangyuan1" Parent="FurnitureBase">
+	<ThingName>白色光源(小）</ThingName>	
+	<TexPath>Spr/Building/guangyuandian1.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		</Data>
+	</Collider>
+	<Light>
+		<Value>75</Value>
+		<Failing>0.1</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>fffaf0FF</Color>
+	</Light>
+	<Building>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkTexPath>Spr/Building/guangyuandian1.png</WorkTexPath>
+		<BeMade>
+			<WorkToMake>75</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade>
+	</Building>
+	</ThingDef>
+
+</List></ThingDefs>
